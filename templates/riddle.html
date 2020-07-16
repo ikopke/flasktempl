@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Welcome!</title>
+    </head>
+    <body>
+        <h1></h1>
+        <p>Your riddle is {{riddle}}</p>
+        <form methods=['GET','POST'], action="/results">
+            <input type="text" name="answer" placeholder="Enter your answer"/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>

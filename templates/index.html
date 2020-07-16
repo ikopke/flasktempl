@@ -3,10 +3,11 @@
         <title>Welcome!</title>
     </head>
     <body>
-        <h1>Hello world!</h1>
-        <p>We can build a full webpage here</p>
-        <form>
-            <input type="text" name="nickname" placeholder="Enter your nickname"/>
+        <h1>The Riddler</h1>
+        <p>Choose your difficulty</p>
+        <p>Easy/Medium/Hard</p>
+        <form methods=['GET','POST'], action="/riddle">
+            <input type="text" name="difficulty" placeholder="Enter difficulty here"/>
             <input type="submit" value="Submit"/>
         </form>
     </body>
