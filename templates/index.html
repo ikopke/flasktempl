@@ -6,9 +6,30 @@
         <h1>The Riddler</h1>
         <p>Choose your difficulty</p>
         <p>Easy/Medium/Hard</p>
-        <form methods=['GET','POST'], action="/riddle">
-            <input type="text" name="difficulty" placeholder="Enter difficulty here"/>
+        <form method="post", action="/riddle">
+            <input type="text" name="adversity" placeholder="Enter difficulty here"/>
             <input type="submit" value="Submit"/>
         </form>
+        <!-- <form method=POST action="/riddle"> -->
+            <!-- <input type="text" name="" placeholder="Enter your nickname"/> -->
+            <!-- <input type="text" name="breakfast" placeholder="Enter your breakfast"/> -->
+            <!-- <div>
+                <input type="radio" id="breakfasts" name="breakfasts" value="cereal">
+                <label for="cereal">Cereal</label> -->
+            <!-- </div>
+            <div>
+                <input type="radio" id="breakfasts" name="breakfasts" value="Bacon and Eggs">
+                <label for="Bacon and Eggs">Bacon and Eggs</label>
+            </div> -->
+            <!-- <select name="breakfasts" id="breakfasts">
+                <option value="Cereal">Cereal</option>
+                <option value="Bacon and Eggs">Bacon and Eggs</option>
+                <option value="Porridge" selected>Porridge</option>
+                <option value="Breakfast sausage">Breakfast sausage</option>
+                <option value="Other">Other</option>
+            </select> -->
+            <!-- <input type="submit" value="Submit"/> -->
+
+        <!-- </form> -->
     </body>
 </html>
